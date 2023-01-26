@@ -1,6 +1,6 @@
 import { sum } from "../src/math";
 
-test("Deve somar 4 + 4", function(){
+test("Deve somar 3 + 7", function(){
     const result = sum(2,2);
-    expect(result).toBe(8);
+    expect(result).toBe(10);
 });
